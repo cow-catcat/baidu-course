@@ -1,36 +1,25 @@
-.container {
-  margin: 0 auto;
-  width: 150px;
-}
-.container .qd-font {
-  position: relative;
-  font-size: 30px;
-  margin: 10px;
-}
-.container .qd-font:after {
-  display: block;
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 100%;
-  bottom: -20px;
-  left: 0px;
-  right: 0;
-  margin: 0 auto;
-  border-bottom: 5px solid  #779ff5;
-  transition: .5s;
-}
-.container .qdBtn {
-  width: 100px;
-  height: 30px;
-  border: 1px solid #666;
-  font-size: 20px;
-  margin: 40px 0px 40px 20px;
-  border-radius: 5px;
+.box {
+  width: 60px;
+  height: 69px;
+  border: 2px solid #949191;
+  float: left;
+  margin: 50px;
+  background: #dad8d8;
   text-align: center;
-  line-height: 30px;
-  cursor: pointer;
+  line-height: 69px;
 }
-.container .text:after {
-  width: 100%;
+.box1 {
+  transform: skew(30deg);
+}
+.box2 {
+  transform: scaleX(0.5);
+}
+.box3 {
+  transform: rotate(45deg);
+}
+.box4 {
+  transform: translate(10px, 20px);
+}
+.box5 {
+  transform: skew(-15deg, 55deg);
 }
